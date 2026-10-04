@@ -1,0 +1,8 @@
+aws_region    = "us-east-1"
+student_id    = "equipe-exemplo-01"
+vpc_id        = "vpc-substituir"
+subnet_id     = "subnet-substituir"
+ami_id        = "ami-substituir-amazon-linux-2023"
+instance_type = "t3.micro"
+operator_cidr = "203.0.113.10/32"
+public_key    = "ssh-ed25519 AAAA... substituir-por-chave-publica"

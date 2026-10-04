@@ -1,0 +1,23 @@
+# Atividades orientadas independentes — proposta de 40h
+
+São **nove exercícios de 2h**, um por semana, além das 18h presenciais e das 4h adicionais de projeto previstas na proposta de 40h. Cada exercício é independente do projeto final: pode empregar o repositório de exercícios, mas não exige que o aluno avance seu projeto. A conclusão requer a evidência indicada; o tempo é carga planejada da atividade e deve ser registrado conforme o procedimento aprovado pela coordenação.
+
+**Entrega:** pasta `atividades/NN/` em repositório do aluno ou formulário institucional equivalente, com `README.md` de respostas, arquivos alterados e evidência sanitizada. Aceitar entrega individual mesmo quando a prática em aula ocorrer em grupo. Não incluir credenciais, arquivos de estado Terraform, identificadores sensíveis ou dados pessoais de terceiros. Referências e ajudas utilizadas devem ser citadas. O facilitador pode estabelecer prazo de recuperação antes do fechamento do ciclo, sem reduzir as nove entregas exigidas para a proposta de 40h.
+
+| Semana | Exercício e divisão sugerida de 2h | Evidência e critério de conclusão | AWS fora da aula? |
+| --- | --- | --- | --- |
+| **1. Fluxo e Git** | 25 min: mapear uma mudança; 60 min: criar branch, dois commits e revisão em um repositório de exercícios; 35 min: explicar conflitos e registrar aprendizados. | Diagrama textual do fluxo, histórico de commits e resposta: qual verificação faria antes de publicar? | Não. |
+| **2. Terraform básico** | 30 min: ler HCL do exemplo; 60 min: acrescentar variável e output e executar `fmt/validate`; 30 min: comparar dois `plan` fornecidos e explicar ações. | Diff do código, saída sanitizada de `validate` e explicação de criação/alteração/destruição. | Não é necessário; `plan` pode ser fornecido pelo facilitador. |
+| **3. S3 e estado** | 30 min: estudar bucket, objeto e website; 50 min: mudar a página e um valor de entrada; 40 min: explicar estado, acesso público e dois erros simulados. | Código modificado, tabela de diferença entre `403`/`404` e texto sobre por que não versionar `terraform.tfstate`. | Opcional, apenas após pré-voo; alternativa documental tem a mesma carga. |
+| **4. Rede e EC2** | 40 min: desenhar fluxo navegador → porta → Security Group → EC2; 50 min: corrigir duas regras indevidas em código de exercício; 30 min: justificar menor acesso e custo. | Diagrama, diff de regras e justificativa. | Não; um `plan` sanitizado pode ser fornecido. |
+| **5. Docker** | 25 min: identificar instruções do Dockerfile; 65 min: mudar o exemplo Flask, testar, construir imagem e consultar `/health`; 30 min: explicar camadas, porta e logs. | Dockerfile, saída do teste, comando de execução e resposta de `/health`. | Não. Se Docker local falhar, usar ambiente previamente autorizado ou analisar logs fornecidos. |
+| **6. CI** | 30 min: ler um workflow; 55 min: introduzir uma falha de teste, observar execução e corrigir; 35 min: explicar por que `apply` não roda no CI de exercício. | YAML, link/capturas sanitizadas de execução falha e corrigida, justificativa. | Não. |
+| **7. Publicação e limpeza** | 30 min: ordenar etapas de entrega; 50 min: executar em ambiente aprovado ou analisar transcrição de `plan/apply/destroy`; 40 min: escrever roteiro de recuperação. | Checklist de publicação, teste e destruição; explicação de um modo de falha. | Caso a caso. Se não houver acesso/crédito, usar transcrição sanitizada fornecida. |
+| **8. Operação** | 30 min: ler sintoma e logs de um serviço fictício; 55 min: localizar causa, propor correção e verificar custo/segredo; 35 min: registrar incidente. | Relato com sintoma, sinal observado, hipótese, teste, correção e prevenção. | Não é necessário. |
+| **9. Revisão de arquitetura** | 40 min: comparar dois desenhos de entrega (S3 e EC2/Docker); 50 min: identificar três riscos e controles; 30 min: escrever plano de evolução formativa. | Comparativo argumentado e plano pessoal de próximos estudos. Não é retrospectiva do projeto final. | Não. |
+
+## Critérios de conferência
+
+Para cada exercício, conferir **entrega completa**, relação entre resposta e evidência, explicação do raciocínio e uso responsável do laboratório. Devolver correção específica ou solicitação de complementação. O [gabarito orientador](GUIA_OPERACIONAL.md#gabarito-orientador-dos-exercícios) mostra as respostas esperadas sem exigir comandos ou redações idênticos.
+
+Os exercícios 2, 3, 4 e 7 têm variantes sem AWS ativa para que uma sessão indisponível não impeça o aluno de praticar o conceito ou concluir a carga orientada. A equivalência da atividade documental na certificação depende da validação institucional da proposta de carga horária.
