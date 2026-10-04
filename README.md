@@ -1,7 +1,6 @@
 # EPIC — materiais de trabalho
 
-- [Contexto institucional resumido](CONTEXTO_EPIC.md): fatos extraídos do *Plano Estratégico 26/27* e distinção das decisões posteriores do ciclo.
-- [Oficina DevOps 2026](PLANEJAMENTO_OFICINA_DEVOPS.md): calendário, escopo, equipe confirmada e acesso aos materiais de implementação.
+- [Oficina DevOps 2026.2](PLANEJAMENTO_OFICINA_DEVOPS.md)
 - [Plano institucional da oficina](oficina/PLANO_INSTITUCIONAL.md)
 - [Roteiros das nove aulas](oficina/ROTEIROS_DAS_AULAS.md)
 - [Guia do participante](oficina/APOSTILA_DO_PARTICIPANTE.md)
