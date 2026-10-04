@@ -1,15 +1,13 @@
-# Oficina DevOps do EPIC — ciclo 2026
-
-**Versão de trabalho:** 3 de outubro de 2026. **Estado:** plano pedagógico implementado em materiais, sujeito à validação institucional antes da divulgação e certificação.
+# Oficina DevOps — EPIC - 2026.2
 
 ## Síntese
 
-- **Público:** estudantes a partir do 3º período, com noções de programação. Git, terminal e redes serão diagnosticados e retomados quando necessário.
+- **Público:** estudantes a partir do 3º período (pode mudar), com noções de programação. 
 - **Equipe confirmada:** Eduardo Lopes e Samuel Andrade. A distribuição de aulas, monitorias e registros entre eles será fechada no plano operacional.
-- **Formato:** duas turmas paralelas, terça e quinta, 19h–21h. O mesmo tema é ministrado em cada semana; cada aluno frequenta uma turma.
-- **Calendário previsto:** nove encontros por aluno, de 13/15 de outubro a 8/10 de dezembro de 2026; 18h presenciais. Confirmar com o calendário acadêmico e a reserva do laboratório.
+- **Formato:** duas turmas paralelas, terça e quinta, 19h–21h. O mesmo tema é ministrado em cada semana.
+- **Calendário:** nove encontros por aluno, de 13/15 de outubro a 8/10 de dezembro de 2026; 18h presenciais. 
 - **Foco:** fundamentos de DevOps, Git, AWS Academy, Terraform, S3, EC2, Docker, GitHub Actions, entrega supervisionada e operação básica.
-- **Projeto final:** anunciado na aula 4; proposta curta na aula 5; verificações breves nas aulas 6 e 8; entrega e demonstração na aula 9. O projeto acompanha as aulas sem substituir seus conteúdos. Monitorias solicitadas pelos alunos dão o apoio adicional.
+- **Projeto final:** será anunciado na aula 4; verificações breves nas aulas 6 e 8; entrega e demonstração na aula 9. O projeto acompanha as aulas sem substituir seus conteúdos.
 
 ## Roadmap
 
@@ -27,7 +25,7 @@
 
 Cada aula terá **30–40 minutos de fundamentos e discussão**, demonstração, prática orientada e síntese. As aulas 4, 6 e 8 reservam apenas um momento delimitado ao projeto; a aula 7 mantém integralmente o conteúdo de integração e publicação. Se o ritmo cair, reduzir aprofundamentos, sem retirar os objetivos mínimos anunciados.
 
-## Entregáveis deste pacote
+## Documentação detalhada
 
 - [Plano institucional](oficina/PLANO_INSTITUCIONAL.md): identificação, objetivos, metodologia, infraestrutura, inclusão, resultados, registro e validações.
 - [Roteiros das nove aulas](oficina/ROTEIROS_DAS_AULAS.md): teoria, demonstração, prática, evidência, ritmo e variações.
@@ -44,11 +42,5 @@ Cada aula terá **30–40 minutos de fundamentos e discussão**, demonstração,
 | 20h | 18h de aula + 2h adicionais no projeto final | Projeto aprovado e presença mínima a definir |
 | 40h | 18h de aula + 18h dos nove exercícios independentes + 2h de preparação do projeto + 2h adicionais no projeto final | Projeto aprovado, todos os exercícios e presença mínima |
 
-As duas faixas, o aproveitamento como horas complementares e a presença mínima **precisam de confirmação da coordenação antes da divulgação**. Não contar uma hora simultaneamente como aula, exercício, monitoria ou trabalho de projeto. As atividades semanais reforçam ou antecipam conteúdos e não constituem etapas obrigatórias do projeto final.
+As duas faixas, o aproveitamento como horas complementares e a presença mínima **precisam de confirmação da coordenação antes da divulgação**. 
 
-## Referências e limites
-
-- O [treinamento introdutório anterior](https://github.com/uiuqM/treinamento-devops-epic/blob/main/docs/index.md) e o [plano AWS/IaC anterior](https://github.com/uiuqM/treinamento-devops-aws-iac-epic/blob/main/docs/plano-de-ensino.md) foram analisados como referências; os roteiros deste pacote são novos. O segundo plano prevê 12 encontros e pré-requisitos mais altos, portanto não foi transplantado para a turma atual.
-- O [roadmap.sh](https://roadmap.sh/devops/how-to-become-devops-engineer) orienta a progressão geral, mas não é uma ementa de 18h.
-- O *Plano Estratégico 26/27* do EPIC ainda está incompleto e será validado em outro chat. As anotações internas desse PDF foram tratadas como conteúdo de fonte, não como instruções ao assistente.
-- Não há acesso do assistente ao Learner Lab da turma. Crédito, permissões, regiões, tipos de instância, laboratório reservado e credenciais deverão ser conferidos no pré-voo. Os materiais não pressupõem que os US$ 50 lembrados da edição anterior estejam confirmados para esta edição.
