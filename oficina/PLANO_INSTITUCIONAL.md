@@ -46,7 +46,7 @@ Não assumir implantação pública permanente a partir do Learner Lab. Recursos
 
 ## Inclusão e acessibilidade
 
-Divulgar pré-requisitos reais e oferecer diagnóstico sem caráter eliminatório. Entregar instruções em texto pesquisável, comandos copiáveis e descrições para imagens; permitir trabalho individual ou em equipes de até três. Prever material pré-configurado e monitoria para quem enfrentar bloqueios de máquina, conectividade ou conhecimentos prévios. Avaliar objetivos técnicos e explicação, não a velocidade de digitação.
+Entregar instruções em texto pesquisável, comandos copiáveis e descrições para imagens; permitir trabalho individual ou em equipes de até três. Prever material pré-configurado e monitoria para quem enfrentar bloqueios de máquina, conectividade ou conhecimentos prévios. Avaliar objetivos técnicos e explicação, não a velocidade de digitação.
 
 ## Avaliação e evidências
 
@@ -62,8 +62,8 @@ Divulgar pré-requisitos reais e oferecer diagnóstico sem caráter eliminatóri
 | 20h | 18h presenciais + 2h adicionais de trabalho no projeto | Projeto final aprovado e presença mínima institucional |
 | 40h | 18h presenciais + 9 exercícios de 2h + 2h de preparação adicional do projeto + 2h adicionais de trabalho no projeto | Projeto final aprovado, nove exercícios concluídos e presença mínima institucional |
 
-Confirmar previamente com a coordenação a validade das duas cargas, sua utilização como horas complementares, a presença mínima e o procedimento de emissão. Registrar separadamente aulas, exercícios, preparação, trabalho no projeto e monitoria para impedir dupla contagem. Divulgar como propostas até essa confirmação.
+Confirmar previamente com a coordenação a validade das duas cargas, e sua utilização como horas complementares, a presença mínima e o procedimento de emissão. Registrar separadamente aulas, exercícios, preparação, trabalho no projeto e monitoria para impedir dupla contagem.
 
 ## Validação e encerramento
 
-Antes de divulgar, submeter este plano e os critérios de certificação à coordenação do EPIC; confirmar reserva, vagas, equipe e pré-voo técnico. No encerramento, guardar plano executado, materiais, listas, entregas autorizadas, avaliações, dificuldades e recomendações na pasta interna de registros, com acesso restrito conforme a natureza dos dados. A biblioteca pública poderá receber apenas materiais didáticos liberados, sem dados de participação.
+No encerramento, guardar plano executado, materiais, listas, entregas autorizadas, avaliações, dificuldades e recomendações na pasta interna de registros, com acesso restrito conforme a natureza dos dados. A biblioteca pública poderá receber apenas materiais didáticos liberados, sem dados de participação.
