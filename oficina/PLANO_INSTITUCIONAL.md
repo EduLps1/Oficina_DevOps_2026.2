@@ -9,13 +9,15 @@
 - **Turmas previstas:** terça e quinta, 19h–21h; conteúdo equivalente, uma turma por aluno.
 - **Período previsto:** 13/15 de outubro a 8/10 de dezembro de 2026, nove encontros por aluno.
 - **Vagas:** estabelecer após verificar máquinas, contas AWS Academy e capacidade de acompanhamento.
-**Carga:** 18h presenciais; propostas de certificação de 20h e 40h descritas abaixo, condicionadas à coordenação.
+- **Carga:** 18h presenciais; propostas de certificação de 20h e 40h descritas abaixo, condicionadas à coordenação.
 
 ## Justificativa e objetivo geral
 
-O EPIC pretende formar participantes que aprendam, pratiquem, documentem e possam multiplicar conhecimento. Nesta oficina, DevOps é abordado como colaboração e melhoria do percurso entre uma mudança no código e sua operação. A AWS Academy oferece um ambiente de experimentação; Terraform, Docker e GitHub Actions tornam o percurso observável e reproduzível.
+A oficina será um espaço para os estudantes percorrerem, de forma orientada, as etapas que levam uma mudança de código até um serviço em funcionamento. Esse percurso permitirá discutir DevOps como uma prática de colaboração entre desenvolvimento e operação: as decisões tomadas ao escrever, revisar e testar o código também influenciam a publicação, a segurança, o custo e a manutenção do serviço. Ao documentar o que fizeram e explicar suas escolhas, os participantes poderão compartilhar o aprendizado com outras pessoas do EPIC.
 
-Ao terminar, o estudante deverá conseguir **explicar, executar e documentar** uma entrega pequena em AWS, usando código versionado, uma alteração de infraestrutura em Terraform, um alvo S3 ou EC2 e um procedimento de verificação e limpeza.
+Para tornar esse processo concreto, a turma trabalhará com aplicações pequenas e com recursos disponíveis no AWS Academy Learner Lab. Git registrará as mudanças; Terraform descreverá a infraestrutura; Docker reunirá a aplicação e suas dependências; e GitHub Actions apoiará a validação automatizada. A combinação dessas ferramentas permitirá observar cada etapa da entrega, reproduzi-la e identificar onde ocorreu uma falha, respeitando as permissões e os limites do laboratório.
+
+Ao concluir a oficina, cada estudante deverá ser capaz de **explicar, executar e documentar** uma entrega pequena em AWS. Isso incluirá manter o código versionado, modificar e justificar uma configuração Terraform, demonstrar um alvo S3 ou EC2 funcional, verificar o resultado e remover os recursos criados para a atividade.
 
 ## Objetivos de aprendizagem
 
@@ -30,9 +32,11 @@ Ao terminar, o estudante deverá conseguir **explicar, executar e documentar** u
 
 ## Conteúdo e método
 
-Os nove encontros seguem o [roadmap do ciclo](../PLANEJAMENTO_OFICINA_DEVOPS.md#roadmap) e os [roteiros](ROTEIROS_DAS_AULAS.md). Cada aula combina 30–40 minutos de fundamento dialogado, demonstração, laboratório guiado, discussão de resultados e síntese. A turma trabalha com site HTML/CSS/JS em S3 e aplicação Flask em Docker/EC2. Código Terraform inicial será fornecido; o aluno deve modificá-lo e explicar a mudança. O projeto final é apresentado na aula 4, entregue na aula 9 e apoiado por monitoria sob demanda.
+O conteúdo será desenvolvido ao longo de nove encontros, conforme o [roadmap do ciclo](../PLANEJAMENTO_OFICINA_DEVOPS.md#roadmap) e os [roteiros de aula](ROTEIROS_DAS_AULAS.md). A sequência começará pela cultura DevOps e pelo uso de Git, passará pelo ciclo de vida do Terraform e pela publicação de um site simples em S3, e avançará para redes, EC2, Docker e GitHub Actions. Nos encontros finais, a turma integrará aplicação, contêiner e AWS, examinará saúde, logs, segurança e custos, e apresentará as entregas. Banco gerenciado poderá ser explorado como aprofundamento, se houver tempo e condições no laboratório.
 
-Os [exercícios semanais](ATIVIDADES_SEMANAIS.md) são independentes do projeto e destinam-se à carga adicional proposta de 40h. Quando uma atividade usar AWS fora da aula, o facilitador confirmará previamente acesso, crédito, permissões e procedimento de destruição; caso contrário, aplicará a variante local/documental prevista.
+Em cada encontro, serão reservados aproximadamente 30 a 40 minutos para fundamentos e discussão. Em seguida, a equipe conduzirá uma demonstração e uma prática orientada, encerrando com a análise do resultado e uma síntese do que foi aprendido. O site simples e a aplicação Flask servirão como exemplos comuns. Os estudantes receberão código Terraform inicial para modificar e deverão explicar o efeito de suas alterações, inclusive quando o acesso à AWS exigir uma alternativa local ou documental.
+
+O projeto final será apresentado na quarta aula e seguirá em paralelo aos conteúdos da oficina até a entrega na nona. A quinta aula receberá as propostas curtas das equipes; a sexta e a oitava reservarão verificações breves de andamento. As dúvidas que exigirem mais tempo serão tratadas em monitorias solicitadas pelos estudantes, preservando o conteúdo previsto para cada encontro. Os [nove exercícios semanais](ATIVIDADES_SEMANAIS.md), por sua vez, serão independentes do projeto e comporão apenas a carga adicional proposta de 40h. Antes de indicar uso da AWS fora da aula, a equipe confirmará acesso, crédito, permissões e procedimento de destruição; quando isso não for possível, utilizará a alternativa local ou documental prevista no exercício.
 
 ## Infraestrutura e materiais
 
@@ -66,4 +70,4 @@ Confirmar previamente com a coordenação a validade das duas cargas, e sua util
 
 ## Validação e encerramento
 
-No encerramento, guardar plano executado, materiais, listas, entregas autorizadas, avaliações, dificuldades e recomendações na pasta interna de registros, com acesso restrito conforme a natureza dos dados. A biblioteca pública poderá receber apenas materiais didáticos liberados, sem dados de participação.
+Ao encerrar o ciclo, a equipe deverá guardar o plano efetivamente executado, os materiais utilizados, as listas de presença, as entregas cuja guarda tenha sido autorizada, as avaliações e um registro das dificuldades e recomendações para a próxima edição. Esses documentos ficarão em uma pasta interna com acesso adequado à natureza de cada dado. A biblioteca pública do EPIC poderá receber somente materiais didáticos liberados para divulgação, sem listas, avaliações individuais ou outros dados de participação.
