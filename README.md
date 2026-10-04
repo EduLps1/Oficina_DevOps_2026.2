@@ -9,4 +9,4 @@
 - [Guia operacional, monitoria e registros](oficina/GUIA_OPERACIONAL.md)
 - [Exemplos técnicos](oficina/exemplos/README.md)
 
-O plano estratégico fornecido em PDF está incompleto e terá validação própria. Este repositório contém o planejamento operacional da oficina; antes de divulgar inscrições ou cargas certificáveis, confirmar os pontos indicados no plano institucional com a coordenação.
+Este repositório contém o planejamento operacional da oficina; antes de divulgar inscrições ou cargas certificáveis, confirmar os pontos indicados no plano institucional com a coordenação.
